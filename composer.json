@@ -1,0 +1,36 @@
+{
+  "name": "sefamertgungor/yii2-tasks",
+  "description": "Yii2 Tasks Module",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sefamertgungor",
+      "email": "180201086@kocaeli.edu.tr",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "yiisoft/yii2": "~2.0.13"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.*.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "sefamertgungor\\tasks\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "sefamertgungor\\tasks\\tests\\": "tests"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}

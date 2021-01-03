@@ -29,6 +29,7 @@ class Tasks extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
+            [['task','description'], 'required'],
             [['description'], 'string'],
             [['start_date', 'end_date'], 'safe'],
             [['task'], 'string', 'max' => 255],

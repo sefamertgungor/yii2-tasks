@@ -27,7 +27,7 @@ Modül ile gerçekleştirilebilecek işlevler:
 3-Modülü kullanabilmek için son olarak migrations işlemini yapmanız gerekiyor. ssh komutu ile proje dizinine gidiniz ve ardından modül içinde kullanılan tabloların veritabanına kurulabilmesi için migration işlemini gerçekleştiriniz.<br/>
 `php yii migrate/up --migrationPath=@vendor/sefamertgungor/yii2-tasks/src/migrations` İşlemini yaptıktan sonra artık modül kullanılabilir hale geldi.
 <br/><br/>
-http://advanced/backend/web/index.php?r=note/not/index adresine giderek modülü kullanabilirsiniz.
+http://advanced/backend/web/index.php?r=tasks/tasks/index adresine giderek modülü kullanabilirsiniz.
 ### Modül Genel Yapısı
 İlk önce modülün genel iskeleti Gii kullanılarak yaratılmıştır. Daha sonra ek olarak silinen görevleri tutacak olan veritabanındaki tablo migrations yardımıyla oluşturulmuştur. Ardından silinen görevleri tutan tablonu kontrolü için el ile Gii kullanılmadan model, view oluşturulmuştur. Ayrıca Controller içerisine gerekli fonksiyon eklemeleri yapılmıştır. Ve son olarak düzenlenerek modül ortaya çıkarılmıştır. 
 #### Migrations:

@@ -10,7 +10,7 @@ Modül ile gerçekleştirilebilecek işlevler:
 ### Kurulum
 1-ssh komutu ile vagrant sanal makinesine bağlanın. Daha sonra /var/www/advanced yolu ile dizine gidin.
 <br/>
-   `composer require --prefer-dist sefemertgungor/yii2-tasks "dev-main"` yardımıyle modül kurulumunu yapın.
+   `composer require --prefer-dist sefamertgungor/yii2-tasks "dev-main"` yardımıyle modül kurulumunu yapın.
 <br/><br/>
 2-Advanced projenizin altındaki backend\config\main.php dosyasındaki modules'e kendi modülümüzün yolunu ekliyoruz.
 <br/>

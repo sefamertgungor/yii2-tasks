@@ -36,6 +36,6 @@ Modül içerisinde migrations ile 2 tane tablo oluşturulmuştur. Mevcut bulunan
 #### Gii:
 Veritabanı içerisinde bulunan tasks tablosu için gii yardımıyla model oluşturuldu . Yine veritabanı içerisinde bulunan tablo üzerinde işlemler (DELETE,UPDATE,CREATE, vb.) yapabilmek amacıyla model üzerinde CRUD GENERATOR kullanılmıştır. Bu sayede Controller ve Views dosyaları oluşturularak modülün genel yapısı inşa edilmiştir.
 #### Modül Görseller:
-1-![internet1](https://user-images.githubusercontent.com/72219337/104810915-fd71ac00-5808-11eb-8f10-485e08b3b90d.jpg)
-2-![Internet2](https://user-images.githubusercontent.com/72219337/104810934-1712f380-5809-11eb-9b62-c47c0ce9d136.jpg)
-3-![internet3](https://user-images.githubusercontent.com/72219337/104810939-2134f200-5809-11eb-92ce-01a9cf1f633b.jpg)
+*ek1 ![internet1](https://user-images.githubusercontent.com/72219337/104810915-fd71ac00-5808-11eb-8f10-485e08b3b90d.jpg)
+*ek2 ![Internet2](https://user-images.githubusercontent.com/72219337/104810934-1712f380-5809-11eb-9b62-c47c0ce9d136.jpg)
+*ek3 ![internet3](https://user-images.githubusercontent.com/72219337/104810939-2134f200-5809-11eb-92ce-01a9cf1f633b.jpg)

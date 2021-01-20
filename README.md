@@ -29,10 +29,10 @@ Modül ile gerçekleştirilebilecek işlevler:
 <br/><br/>
 http://advanced/backend/web/index.php?r=tasks/tasks/index adresine giderek modülü kullanabilirsiniz.
 ### Modül Genel Yapısı
-İlk önce modülün genel iskeleti Gii kullanılarak yaratılmıştır. Daha sonra ek olarak silinen görevleri tutacak olan veritabanındaki tablo migrations yardımıyla oluşturulmuştur. Ardından silinen görevleri tutan tablonu kontrolü için el ile Gii kullanılmadan model, view oluşturulmuştur. Ayrıca Controller içerisine gerekli fonksiyon eklemeleri yapılmıştır. Ve son olarak düzenlenerek modül ortaya çıkarılmıştır. 
+İlk önce modülün genel iskeleti Gii kullanılarak yaratılmıştır. Daha sonra ek olarak silinen görevleri tutacak olan veritabanındaki tablo migrations yardımıyla oluşturulmuştur. Ardından silinen görevleri tutan tablonun kontrolü için el ile Gii kullanılmadan model, view oluşturulmuştur. Ayrıca Controller içerisine gerekli fonksiyon eklemeleri yapılmıştır. Ve son olarak düzenlenerek modül ortaya çıkarılmıştır. 
 #### Migrations:
 ![internet4](https://user-images.githubusercontent.com/72219337/104810965-3a3da300-5809-11eb-9fe8-602fd1c8a7a5.jpg)<br/>
-Modül içerisinde migrations ile 2 tane tablo oluşturulmuştur. Mevcut bulunan görevleri tutan tablo ve silinen görevleri tutan tablo olarak. Bu tabloların değişkenleri aynıdır. Birbirleriyle 'name' alanı ile ilişki kurarlar.
+Modül içerisinde migrations ile 2 tane tablo oluşturulmuştur. Mevcut bulunan görevleri tutan tablo ve silinen görevleri tutan tablo olarak. Bu tabloların değişkenleri aynıdır. Birbirleriyle 'task' alanı ile ilişki kurarlar.
 #### Gii:
 Veritabanı içerisinde bulunan tasks tablosu için gii yardımıyla model oluşturuldu . Yine veritabanı içerisinde bulunan tablo üzerinde işlemler (DELETE,UPDATE,CREATE, vb.) yapabilmek amacıyla model üzerinde CRUD GENERATOR kullanılmıştır. Bu sayede Controller ve Views dosyaları oluşturularak modülün genel yapısı inşa edilmiştir.
 #### Modül Görseller:
